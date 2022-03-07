@@ -1,10 +1,10 @@
 # Cloudflare Worker Router
 
-Cloudflare Workers Router is a lightweight Express-like router with middleware support Cloudflare Workers and Durable Objects. It began as a fork of [@tsndr/cloudflare-worker-router](https://github.com/tsndr/cloudflare-worker-router). THe entire codebase has been converted to Typescript and a couple features have been added.
+Cloudflare Workers Router is a lightweight Express-like router with middleware support Cloudflare Workers and Durable Objects. It began as a fork of [@tsndr/cloudflare-worker-router](https://github.com/tsndr/cloudflare-worker-router). The entire codebase has been converted to Typescript and a couple features have been added.
 
 - Websocket support, for Cloudflare's `Response` object
 - `router.use()`, for express-like global middleware
-- Seperate Cors middleware
+- Separate Cors middleware
 
 ## Usage
 
