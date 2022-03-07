@@ -1,0 +1,11 @@
+name = "cloudflare-worker-router-typescript-test"
+type = "javascript"
+workers_dev = true
+compatibility_date = "2022-02-12"
+
+[build]
+command = "npm install && npm run buildTests"
+[build.upload]
+format = "modules"
+dir = "dist"
+main = "./index.mjs"
