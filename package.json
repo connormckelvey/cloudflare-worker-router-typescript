@@ -1,6 +1,6 @@
 {
   "name": "cloudflare-worker-router-typescript",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Cloudflare Worker Router Typescript is a lightweight Express-like router library for Cloudflare Workers including service workers, modules, and Durable Objects",
   "type": "module",
   "main": "dist/index.js",

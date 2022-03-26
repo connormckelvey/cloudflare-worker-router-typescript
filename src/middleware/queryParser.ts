@@ -1,4 +1,4 @@
-import { RouterHandler } from "../types";
+import { RouterHandler } from "../types.js";
 
 export const queryParser: RouterHandler = async (req, res, next) => {
     const url = new URL(req.request.url)

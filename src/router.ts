@@ -1,4 +1,4 @@
-import { RouterRequest, RouterResponse, RouterHandler } from './types'
+import { RouterRequest, RouterResponse, RouterHandler } from './types.js'
 
 export class Router {
     private routes: Route[] = []
