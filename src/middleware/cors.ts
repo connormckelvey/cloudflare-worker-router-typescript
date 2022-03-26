@@ -1,4 +1,4 @@
-import { RouterHandler } from '../types'
+import { RouterHandler } from '../types.js'
 
 export type RouterCorsConfig = {
     allowOrigin?: string

@@ -1,4 +1,4 @@
-import { RouterHandler } from '../types'
+import { RouterHandler } from '../types.js'
 
 export const bodyParser: RouterHandler = async (req, res, next) => {
     if (['POST', 'PUT', 'PATCH', 'DELETE'].includes(req.method)) {
